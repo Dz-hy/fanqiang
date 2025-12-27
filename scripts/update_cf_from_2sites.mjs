@@ -159,9 +159,6 @@ async function main() {
   // 输出：去重、裁剪、按顺序分段
   const now = new Date().toISOString();
   const lines = [];
-  lines.push(`# Sources:`);
-  lines.push(`# - ${WETEST_URL}`);
-  lines.push(`# - ${HOSTMONIT_URL}`);
   lines.push(`# Updated (UTC): ${now}`);
   lines.push("");
 
